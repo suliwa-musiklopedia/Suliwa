@@ -1,0 +1,97 @@
+
+@media(max-width: 991px){
+	.galeri-section .galeri-item,
+	.servis-section .servis-item{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+
+@media(max-width: 767px){
+	.kontak-section .w-50,
+	.kontak-section .kontak-item,
+	.galeri-popup .description,
+	.galeri-popup .info,
+	.galeri-section .galeri-item,
+	.tentang-section .skills .skill-item,
+	.tentang-section .tentang-info,
+	.tentang-section .tentang-img{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+
+	.home-section .home-text,
+	.home-section .home-img{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.home-section .home-text{
+		order: 2;
+	}
+
+	/*.kontak-section .submit-btn,*/
+	.home-section .home-text{
+		text-align: center;
+	}
+
+	.home-section .full-screen{
+		padding: 100px 0;
+	}
+
+	.home-section .home-img .img-box{
+		margin-bottom: 40px;
+		max-width: 1000px;
+	}
+
+	.tentang-section .tentang-img{
+		padding-bottom: 30px;
+	}
+
+	.tentang-section .timeline .timeline-item:nth-child(odd){
+		padding-right: 15px;
+    	text-align: left;
+		padding-left: 75px;
+	}
+
+	.tentang-section .timeline .timeline-item:nth-child(even){
+		padding-left: 75px;
+	}
+
+	.tentang-section .timeline:before{
+		left: 35px;
+	}
+
+	.tentang-section .timeline .timeline-item:nth-child(odd) .icon{
+		right: auto;
+		left: -60px;
+	}
+
+	.tentang-section .timeline .timeline-item:nth-child(even) .icon{
+		left: -60px;
+	}
+
+	.tentang-section .timeline .timeline-item{
+		margin-bottom: 40px;
+	}
+
+	.tentang-section .timeline .timeline-item:last-child{
+		margin-bottom: 0;
+	}
+
+	.tentang-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
+		left: 30px;
+		right: auto;
+	}
+}
+
+@media(max-width: 574px){
+	.home-section .home-img .img-box{
+		max-width: 100%;
+	}
+	.home-section .home-text{
+		font-size: 20px;
+	}
+}
